@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,700,900');
+$gradient: linear-gradient(70deg, rgba(176,48,255,1) 0%, rgba(76,0,255,1) 52%, rgba(4,185,247,1) 100%);
+$light-blue: #22AED1;
+
+.gradient {
+  background-image: $gradient;
+  height: 100vh;
+}

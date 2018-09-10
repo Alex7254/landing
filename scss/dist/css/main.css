@@ -16,8 +16,7 @@
     display: inline-block;
     height: 100%;
     padding: 10px;
-    width: 50%;
-    color: #fff; }
+    width: 50%; }
   .menu-area nav {
     width: 50%;
     height: 100%;
@@ -87,7 +86,7 @@ main {
   align-items: center;
   border-bottom: dashed 2px #b3b3b3; }
   .about .about-txt {
-    width: 49vw;
+    width: 50vw;
     padding: 20px; }
     .about .about-txt h1 {
       color: #444;
@@ -219,22 +218,19 @@ footer {
       padding: 7px; }
 
 @media screen and (min-width: 1141px) and (max-width: 1380px) {
+  main .land-img img {
+    height: 70vh;
+    width: 65vw; }
   .about .about-img img {
-    height: 320px;
-    width: 320px; }
+    height: 350px;
+    width: 350px; }
   .services .boxes .box {
-    margin: 10px 35px; }
-  .contact {
-    height: 95vh; }
-    .contact .form-area form textarea {
-      min-width: 400px;
-      max-width: 400px;
-      min-height: 130px; } }
+    margin: 10px 35px; } }
 
 @media screen and (max-width: 1140px) {
   main .land-img img {
-    height: 70vh;
-    width: 40vw; }
+    height: 80vh;
+    width: 70vw; }
   .about .about-txt p {
     font-size: 1em; }
   .about .about-img img {
@@ -360,22 +356,16 @@ footer {
         font-size: .8em; }
   .contact {
     height: 100vh; }
-    .contact h1 {
-      margin-bottom: 10px;
-      font-size: 1.5em; }
-    .contact .form-area {
-      height: 85%; }
-      .contact .form-area form {
-        height: 85%;
-        width: 320px; }
-        .contact .form-area form input {
-          width: 315px; }
-        .contact .form-area form textarea {
-          min-width: 315px;
-          max-width: 315px;
-          min-height: 150px; }
-        .contact .form-area form button {
-          margin-top: 15px; }
+    .contact .form-area form input {
+      width: 300px; }
+    .contact .form-area form textarea {
+      min-width: 300px;
+      max-width: 300px;
+      min-height: 150px; }
+    .contact .form-area form button {
+      display: inline-block;
+      justify-content: center;
+      text-align: center; }
   footer .social .fab {
     font-size: 1em; }
   footer .footer-txt a {

@@ -1,0 +1,349 @@
+// Really Small Screens
+@include mediaLg {
+
+  // About fix
+  .about {
+    .about-img {
+      img {
+        height: 320px;
+        width: 320px;
+      }
+    }
+  }
+  // Services Fix
+  .services {
+    .boxes {
+      .box {
+        margin: 10px 35px;
+      }
+    }
+  }
+  // Contact Area Fix
+  .contact {
+    height: 95vh;
+    .form-area {
+      form {
+        textarea {
+          min-width: 400px;
+          max-width: 400px;
+          min-height: 130px;
+        }
+      }
+    }
+  }
+}
+
+
+
+// Medium Screens
+@include mediaMd {
+  //Landing Area Fix
+  main {
+    .land-img {
+      img {
+        height: 70vh;
+        width: 40vw;
+      }
+    }
+  }
+  // About fix
+  .about {
+    .about-txt {
+      p {
+        font-size: 1em;
+      }
+    }
+    .about-img {
+      img {
+        height: 300px;
+        width: 300px;
+      }
+    }
+  }
+  // Services Fix
+  .services {
+    .boxes {
+      .box {
+        margin: 10px 15px;
+        h1 {
+          font-size: 1em;
+        }
+        p {
+          font-size: .8em;
+        }
+      }
+    }
+  }
+  // Contact Area Fix
+  .contact {
+    .form-area {
+      form {
+        textarea {
+          min-width: 400px;
+          max-width: 400px;
+          min-height: 250px;
+        }
+      }
+    }
+  }
+}
+
+
+
+// Small Screens
+@include mediaSm {
+  //Landing Area Fix
+  main {
+    .land-txt {
+      width: 100%;
+      h1 {
+        font-size: 2.2em;
+      }
+    }
+    .land-img {
+      display: none;
+      img {
+        display: none;
+      }
+    }
+  }
+  // About fix
+  .about {
+    .about-txt {
+      h1 {
+        font-size: 1.9em;
+      }
+      p {
+        font-size: .9em;
+      }
+    }
+    .about-img {
+      img {
+        height: 250px;
+        width: 250px;
+      }
+    }
+  }
+  // Services Fix
+  .services {
+    .boxes {
+      .box {
+        margin: 10px 15px;
+        h1 {
+          font-size: 1em;
+        }
+        p {
+          font-size: .8em;
+        }
+      }
+    }
+  }
+  // Contact Area Fix
+  .contact {
+    .form-area {
+      form {
+        textarea {
+          min-width: 400px;
+          max-width: 400px;
+          min-height: 250px;
+        }
+      }
+    }
+  }
+}
+
+
+
+// Smaller Screens ?
+@include mediaXsm {
+  //Landing Area Fix
+  main {
+    .land-txt {
+      width: 100%;
+      h1 {
+        font-size: 2.2em;
+      }
+    }
+    .land-img {
+      display: none;
+      img {
+        display: none;
+      }
+    }
+  }
+  // About fix
+  .about {
+    .about-txt {
+      width: 100%;
+      h1 {
+        font-size: 1.9em;
+      }
+      p {
+        font-size: .9em;
+      }
+    }
+    .about-img {
+      width: 100%;
+      img {
+        height: 250px;
+        width: 250px;
+      }
+    }
+  }
+  // Services Fix
+  .services {
+    height: 79vh;
+    .boxes {
+      .box {
+        height: 200px;
+        margin: 10px 15px;
+        h1 {
+          font-size: 1em;
+        }
+        p {
+          font-size: .8em;
+        }
+      }
+    }
+  }
+  // Contact Area Fix
+  .contact {
+    .form-area {
+      form {
+        textarea {
+          min-width: 400px;
+          max-width: 400px;
+          min-height: 250px;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+// Mobile Devices
+@include mediaT {
+  // Menu Fix
+  .menu-area {
+    nav {
+      ul {
+        li {
+          padding: 5px;
+          a {
+            font-size: .7em;
+          }
+        }
+      }
+    }
+  }
+  //Landing Area Fix
+  main {
+    .land-txt {
+      width: 100%;
+      h1 {
+        font-size: 1.7em;
+        padding: 7px;
+      }
+      p {
+        font-size: .8em;
+        padding: 8px;
+      }
+    }
+    .land-img {
+      display: none;
+      img {
+        display: none;
+      }
+    }
+  }
+  // About fix
+  .about {
+    .about-txt {
+      width: 100%;
+      h1 {
+        font-size: 1.6em;
+        margin-bottom: 15px;
+      }
+      p {
+        font-size: .7em;
+      }
+    }
+    .about-img {
+      width: 100%;
+      padding: 10px;
+      margin-top: -40px;
+      img {
+        height: 200px;
+        width: 200px;
+      }
+    }
+  }
+  // Services Fix
+  .services {
+    height: 100vh;
+    h1 {
+      margin-bottom: 10px;
+      font-size: 1.5em;
+    }
+    .boxes {
+      .box {
+        height: 200px;
+        margin: 0 15px;
+        .fas {
+          font-size: 2.4em;
+        }
+        h1 {
+          font-size: 1em;
+          margin-top: -40px;
+        }
+        p {
+          font-size: .8em;
+        }
+      }
+    }
+  }
+  // Contact Area Fix
+  .contact {
+    height: 100vh;
+    h1 {
+      margin-bottom: 10px;
+      font-size: 1.5em;
+    }
+    .form-area {
+      height: 85%;
+      form {
+        height: 85%;
+        width: 320px;
+        input {
+          width: 315px;
+        }
+        textarea {
+          min-width: 315px;
+          max-width: 315px;
+          min-height: 150px;
+        }
+        button {
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+  //Footer Fix
+  footer {
+    .social {
+      .fab {
+        font-size: 1em;
+      }
+    }
+    .footer-txt {
+      a {
+        font-size: .7em;
+        padding: 3px;
+      }
+    }
+  }
+}
